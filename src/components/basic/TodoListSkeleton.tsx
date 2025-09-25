@@ -1,4 +1,3 @@
-import React from 'react'
 import TodoItemSkeleton from './TodoItemSkeleton'
 
 export default function TodoListSkeleton() {

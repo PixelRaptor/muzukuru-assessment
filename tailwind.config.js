@@ -11,6 +11,21 @@ export default {
 				gray_light: "#F3F5F7",
 				orange_dark: "#ff4810",
 			},
+
+			screens: {
+				tall: {
+					raw: `only screen and (max-height: 960px) and (max-width: 480px)`,
+				},
+				wide: {
+					raw: `only screen and (max-height: 480px) and (max-width: 960px)`,
+				},
+				rg: {
+					raw: `only screen and (min-width: 767px) and (max-width: 1300px)`,
+				},
+				sm: {
+					raw: `only screen and (max-width: 768px)`,
+				},
+			},
 		},
 	},
 	plugins: [],

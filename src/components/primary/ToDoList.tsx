@@ -1,4 +1,3 @@
-import React from 'react'
 import type Task from '../../types/Task'
 import TodoItem from './TodoItem'
 import type ToDoListProps from '../../types/ToDoListProps'

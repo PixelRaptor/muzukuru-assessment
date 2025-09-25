@@ -1,4 +1,3 @@
-import React from 'react'
 import type ErrorCardProps from '../../types/ErrorCardProps'
 
 export default function ErrorCard({onClose,message}:ErrorCardProps) {

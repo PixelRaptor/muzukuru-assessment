@@ -1,4 +1,4 @@
-import React,{useState} from "react"
+import {useState} from "react"
 import { motion } from "motion/react"
 import type TodoItemProps from "../../types/TodoItemProps.ts"
 import type Task from "../../types/Task.ts"

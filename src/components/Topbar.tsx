@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import SearchInput from "./basic/SearchInput"
 import type TopBarProps from "../types/TopbarProps"
 
@@ -47,7 +47,7 @@ export default function Topbar({ AddNewTask, searchTasks }:TopBarProps) {
 						</svg>
 					</a>
 				</div>
-				<div className="w-[550px] h-[42px] mx-[32px] rounded-[30px] bg-gray_light">
+				<div className="w-[550px] h-[42px] mx-[32px] rounded-[30px] md:bg-gray_light">
 					<SearchInput
 						placeholder="Search tasks..."
 						value={query}

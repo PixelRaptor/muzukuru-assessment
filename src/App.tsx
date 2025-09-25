@@ -303,7 +303,7 @@ function App() {
 	return (
 		<>
 			<Topbar AddNewTask={handleNewTask} />
-			<div className="w-full max-w-[926px] mx-auto flex py-[2rem]  flex-col">
+			<div className="w-full max-w-[926px] mx-auto flex py-[2rem]  flex-col sm:px-[16px]">
 				<FilterPills selected={selected} onSelected={handleSelected} />
 				{!loading && (
 					<ToDoList

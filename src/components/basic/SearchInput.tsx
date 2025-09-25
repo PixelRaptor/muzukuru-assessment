@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import { useState } from "react"
 import type { KeyboardEvent, ChangeEvent } from "react"
 import type SearchInputProps from "../../types/SearchInputProps"
 
@@ -34,7 +34,7 @@ const SearchInput = ({
 	return (
 		<div className="flex items-center bg-none py-[2px] pl-[0.9rem] pr-[2px] w-full">
 			<svg
-				className="w-[19px] h-[19px]"
+				className="w-[19px] h-[19px] sm:hidden"
 				viewBox="0 0 19 19"
 				fill="none"
 				xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ const SearchInput = ({
 			</svg>
 			<input
 				type="text"
-				className="flex-1 font-medium p-2 text-sm outline-none bg-transparent"
+				className="flex-1 font-medium p-2 text-sm outline-none bg-transparent sm:hidden"
 				placeholder={placeholder}
 				value={searchValue}
 				onChange={handleChange}
@@ -58,7 +58,7 @@ const SearchInput = ({
 			/>
 			<button
 				type="button"
-				className="pl-[14px] pr-[18px] pt-[8px] pb-[10px] text-sm font-[600] bg-gray_dark text-white rounded-[22px] hover:bg-orange_dark flex flex-row gap-[5px] stroke-white"
+				className="pl-[14px] pr-[18px] pt-[8px] pb-[10px] text-sm font-[600]  bg-gray_dark text-white rounded-[22px] hover:bg-orange_dark flex flex-row gap-[5px] stroke-white sm:absolute sm:top-[90dvh]"
 				onClick={handleAddNewTask}
 			>
 				<span>

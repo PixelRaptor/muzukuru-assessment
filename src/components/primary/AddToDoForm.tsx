@@ -47,7 +47,7 @@ export default function CreateTask({ onSubmit,onClose }: CreateTaskProps) {
 	}
 
 	return (
-		<div className="bg-white rounded-[8px] px-[20px] py-[24px] max-w-[494px] w-full absolute transform-gpu top-1/2 and left-1/2 -translate-x-1/2 and -translate-y-1/2 z-10">
+		<div className="bg-white rounded-[8px] px-[20px] py-[24px] max-w-[494px] w-full absolute transform-gpu sm:top-0 sm:left-0 sm:h-[100dvh] top-1/2 and left-1/2 md:-translate-x-1/2 and md:-translate-y-1/2 z-10">
 			<div className="font-bold text-[20px]">Create new task</div>
 			<div className="h-[1px] border-b-[1px] border-[#ECECEC] my-[23px]"></div>
 			<form onSubmit={handleSubmit}>

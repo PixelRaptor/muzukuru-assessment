@@ -1,4 +1,3 @@
-import React from 'react'
 import type FilterPillProps from "../../types/FilterPillProps"
 
 export default function FilterPills({ selected = "", onSelected }: FilterPillProps) {

@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function TodoItemSkeleton() {
 	return (
 			<li className="rounded-[40px] grid grid-cols-[17px_1fr_auto] overflow-hidden pl-[24px] pr-[24px] py-[5px] gap-[14px] animate-pulse bg-gray_light">
