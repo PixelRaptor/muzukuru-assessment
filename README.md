@@ -6,6 +6,10 @@ This project is a React application built with **Vite** for fast development, **
 
 ## 🚀 Getting Started
 
+### Resources
+demo: https://muzukuru-assessment.netlify.app/
+design: https://www.figma.com/design/0ifkZeO4NnddaYQyOwumVw/Mzukuru-Assessment?node-id=0-1&t=UPg4cSDSkkE2oyUo-1
+
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/PixelRaptor/muzukuru-assessment.git
